@@ -1,7 +1,7 @@
 #### How to use
 
 ```typescript
-import { Transaction, getTransaction } from 'lb-typeorm-transactional'
+import { Transaction, useTransaction } from 'lb-typeorm-transactional'
 
 export class UserService {
 
