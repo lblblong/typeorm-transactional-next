@@ -1,0 +1,33 @@
+{
+  "name": "typeorm-transactional-next",
+  "version": "1.0.0",
+  "description": "typeorm-transactional-next",
+  "license": "MIT",
+  "keywords": [],
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "serve": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build": "microbundle-crl --no-compress --format modern,cjs"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "typeorm": "^0.2.32"
+  },
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "nanoid": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/cls-hooked": "^4.3.3",
+    "microbundle-crl": "^0.13.11",
+    "typeorm": "^0.2.32"
+  },
+  "files": [
+    "dist"
+  ]
+}
